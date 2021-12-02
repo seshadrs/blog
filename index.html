@@ -3,174 +3,275 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- iOS Safari -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <!-- Chrome, Firefox OS and Opera Status Bar Color -->
-  <meta name="theme-color" content="#FFFFFF">
-  <meta property="og:title" content="unvarnished">
-    <meta name="description" content="ideas, results and everything in-between, from Sesh.">
-  <meta property="og:description" content="ideas, results and everything in-between, from Sesh.">
-    <meta property="og:type" content="blog">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- Chrome, Firefox OS and Opera Status Bar Color -->
+<meta name="theme-color" content="#FFFFFF">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
+<link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
+<link rel="stylesheet" type="text/css" href="css/SourceSansPro.css">
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+<link rel="stylesheet" type="text/css" href="css/notablog.css">
+<!-- Favicon -->
+
+  <link rel="shortcut icon" href="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F320633e8-3085-4580-acbd-ebf160eeed36%2Fhome.png?table=collection&amp;id=c028b1e3-fce7-415e-96c6-cf8b2be3919a">
+
+<style>
+  :root {
+    font-size: 20px;
+  }
+</style>
   <title>unvarnished</title>
-  <!-- Favicon -->
-    <link rel="shortcut icon" href="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F320633e8-3085-4580-acbd-ebf160eeed36%2Fhome.png?table=collection&id=c028b1e3-fce7-415e-96c6-cf8b2be3919a">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
-  <link rel="stylesheet" type="text/css" href="css/SourceSansPro.css">
-  <link rel="stylesheet" type="text/css" href="css/theme.css">
-  <link rel="stylesheet" type="text/css" href="css/notablog.css">
-  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
-
-  <style>
-    :root {
-      font-size: 20px;
-    }
-
-    hr.style14 { 
-      border: 0; 
-      height: 1px; 
-      background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-      background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-      background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-      background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
-    }
-
-  </style>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ET8JZXS5LE"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-ET8JZXS5LE');
-  </script>
-
+  <meta property="og:type" content="blog">
+  <meta property="og:title" content="unvarnished">
+  
+    <meta name="description" content="ideas, results and everything in-between, from Sesh.">
+    <meta property="og:description" content="ideas, results and everything in-between, from Sesh.">
+  
+  
+    <meta property="og:image" content="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F320633e8-3085-4580-acbd-ebf160eeed36%2Fhome.png?table=collection&amp;id=c028b1e3-fce7-415e-96c6-cf8b2be3919a">
+  
 </head>
 
 <body>
   <nav class="Navbar">
-    <a href="index.html">
-      <div class="Navbar__Btn"><span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F320633e8-3085-4580-acbd-ebf160eeed36%2Fhome.png?table=collection&id=c028b1e3-fce7-415e-96c6-cf8b2be3919a"></span> <span>Blog</span></div>
-    </a>
-                                                    <span class="Navbar__Delim">&centerdot;</span>
-    <a href="about.html">
-      <div class="Navbar__Btn"><span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff0df78d3-1d44-498e-8227-78001f637913%2Fabout.png?table=block&id=b5ef726c-6168-43f7-ab47-4080e6397bed"></span> <span>About</span></div>
-    </a>
-                <span class="Navbar__Delim">&centerdot;</span>
-    <a href="photography.html">
-      <div class="Navbar__Btn"><span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F34a8a292-8ecd-460a-9845-834872a45c7a%2Fcamera.png?table=block&id=81e721b8-8434-44d4-a045-f04a6894fadc"></span> <span>Photography</span></div>
-    </a>
-                                  </nav>
-  <header class="Header">
-        <div class="Header__Spacer Header__Spacer--NoCover">
+  <a href="index.html">
+    <div class="Navbar__Btn">
+      
+        <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F320633e8-3085-4580-acbd-ebf160eeed36%2Fhome.png?table=collection&amp;id=c028b1e3-fce7-415e-96c6-cf8b2be3919a"></span>&nbsp;
+      
+      <span>Home</span>
     </div>
+  </a>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="about.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff0df78d3-1d44-498e-8227-78001f637913%2Fabout.png?table=block&amp;id=b5ef726c-6168-43f7-ab47-4080e6397bed"></span>&nbsp;
+          
+          <span>About</span>
+        </div>
+      </a>
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="photography.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F34a8a292-8ecd-460a-9845-834872a45c7a%2Fcamera.png?table=block&amp;id=81e721b8-8434-44d4-a045-f04a6894fadc"></span>&nbsp;
+          
+          <span>Photography</span>
+        </div>
+      </a>
+    
+  
+    
+  
+    
+  
+    
+  
+</nav>
+  <header class="Header">
+    
+    <div class="Header__Spacer Header__Spacer--NoCover">
+    </div>
+    
+      <div class="Header__Icon">
+        <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F320633e8-3085-4580-acbd-ebf160eeed36%2Fhome.png?table=collection&amp;id=c028b1e3-fce7-415e-96c6-cf8b2be3919a"></span>
+      </div>
+    
     <h1 class="Header__Title">unvarnished</h1>
-        <div class="Header__Desc">
-      <span class="SemanticStringArray"><span class="SemanticString"><em class="SemanticString__Fragment SemanticString__Fragment--Italic">ideas, results and everything in-between, from </em></span><span class="SemanticString"><em class="SemanticString__Fragment SemanticString__Fragment--Italic"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://seshadri.xyz/about.html"><span class="SemanticString__Fragment SemanticString__Fragment--Unknown">Sesh</span></a></em></span><span class="SemanticString"><em class="SemanticString__Fragment SemanticString__Fragment--Italic">.</em></span></span>    </div>
-      </header>
-
-  <hr class="style14"/>
-
+    
+      <div class="Header__Desc">
+        <span class="Header__DescBigQuoteMark">&ldquo;</span>
+        <span class="SemanticStringArray"><span class="SemanticString"><em class="SemanticString__Fragment SemanticString__Fragment--Italic">ideas, results and everything in-between, from </em></span><span class="SemanticString"><em class="SemanticString__Fragment SemanticString__Fragment--Italic"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://seshadri.xyz/about.html"><span class="SemanticString__Fragment SemanticString__Fragment--Unknown">Sesh</span></a></em></span><span class="SemanticString"><em class="SemanticString__Fragment SemanticString__Fragment--Italic">.</em></span></span>
+        <span class="Header__DescBigQuoteMark">&bdquo;</span>
+      </div>
+    
+  </header>
   <article class="ArticleList">
-                <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F70ece49c-7cbc-41fc-a55a-27c16467a3fc%2Farticle.png?table=block&id=f2c65222-f61e-42ba-b1b2-0dedd3e355f1"></span>        <a href="social-comparison.html">
-              Keeping up with the Joneses            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">I discuss how our lives are affected by pervasive social comparison. This is a note to my future self and my curious friends.</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Tue, Sep 7, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--blue">
-            <a href="tag/perspective.html">perspective</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--gray">
-            <a href="tag/life.html">life</a>
-          </span>
-                  </div>
-    </article>
-                      <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F70ece49c-7cbc-41fc-a55a-27c16467a3fc%2Farticle.png?table=block&id=74bab1ee-191a-443a-b69f-58f4f1ae972d"></span>        <a href="cgm-alerts-t1d.html">
-              Bespoke CGM phone-call alerts for T1D glycemic control            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">I describe how my programmatic alert driven approach has reduced my management time and improved glycemic control.</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Sat, Aug 28, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--green">
-            <a href="tag/health.html">health</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
-            <a href="tag/tech.html">tech</a>
-          </span>
-                  </div>
-    </article>
-                      <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F70ece49c-7cbc-41fc-a55a-27c16467a3fc%2Farticle.png?table=block&id=d193afb0-32b1-4167-8242-3f2566e4c87e"></span>        <a href="model-name-gender.html">
-              Modeling the perceived gender of names            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">I build and test an ML model to predict the perceived gender of a name in a given country.</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Mon, Aug 16, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--yellow">
-            <a href="tag/machine-learning.html">machine-learning</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
-            <a href="tag/tech.html">tech</a>
-          </span>
-                  </div>
-    </article>
-                      <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F70ece49c-7cbc-41fc-a55a-27c16467a3fc%2Farticle.png?table=block&id=d681b1ea-2437-4387-a8fd-a2346bf78d38"></span>        <a href="ml-photo-filter.html">
-              Enhancing high depth-of-field photos with image understanding            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">I use ML model predictions for photo depth and foreground saliency to highlight the subject(s) of interest against a soft background.</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Mon, Aug 26, 2019</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--yellow">
-            <a href="tag/machine-learning.html">machine-learning</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
-            <a href="tag/tech.html">tech</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--red">
-            <a href="tag/photography.html">photography</a>
-          </span>
-                  </div>
-    </article>
-                                                                                      </article>
 
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F27840c54-c4dd-4461-b598-63f0dee697d3%2Farticle.png?table=block&amp;id=d179354c-4a48-474a-9133-373bdfb3ba70"></span>
+      
+      <a href="better-baby-movement-monitor.html">
+        Building a better baby movement monitor
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">An eyes-free baby movement monitor that alerts via audio tones. Can use any iOS baby monitor app as input video feed.</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Tue, Nov 30, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
+          <a href="tag/tech.html">tech</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--blue">
+          <a href="tag/perspective.html">perspective</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/childcare.html">childcare</a>
+        </span>
+      
+    </div>
+  </article>
 
-<hr class="style14"/>
-<div class="PageRoot">
-  <form action="https://send.pageclip.co/ht6aEXF6qy8PJmtRQ8Gm9oCo1QH3N6Ub/Subscription" class="pageclip-form" method="post" align="center">
-  <p style="font-size:90%;line-height:.8em;"> <br/> If you like this consider subscribing. <br/> &nbsp;</p>
-    <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-    <input type="text" name="name" placeholder="name" />
-    <input type="email" name="email" placeholder="email" />
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F70ece49c-7cbc-41fc-a55a-27c16467a3fc%2Farticle.png?table=block&amp;id=f2c65222-f61e-42ba-b1b2-0dedd3e355f1"></span>
+      
+      <a href="social-comparison.html">
+        Keeping up with the Joneses
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">I discuss how our lives are affected by pervasive social comparison. This is a note to my future self and my curious friends.</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Tue, Sep 7, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--blue">
+          <a href="tag/perspective.html">perspective</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--gray">
+          <a href="tag/life.html">life</a>
+        </span>
+      
+    </div>
+  </article>
 
-    <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-    <button type="submit" class="pageclip-form__submit" style="background-color:#9873DD;color:white;border-color:silver">
-      <span>subscribe</span>
-    </button>
-    <br/> <p style="line-height:.5em;">&nbsp;</p> <p style="font-size:70%"> No spam pinky swear */\* </p>
-  </form>
-</div>
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F70ece49c-7cbc-41fc-a55a-27c16467a3fc%2Farticle.png?table=block&amp;id=74bab1ee-191a-443a-b69f-58f4f1ae972d"></span>
+      
+      <a href="cgm-alerts-t1d.html">
+        Bespoke CGM phone-call alerts for T1D glycemic control
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">I describe how my programmatic alert driven approach has reduced my management time and improved glycemic control.</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Sat, Aug 28, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--green">
+          <a href="tag/health.html">health</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
+          <a href="tag/tech.html">tech</a>
+        </span>
+      
+    </div>
+  </article>
 
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F70ece49c-7cbc-41fc-a55a-27c16467a3fc%2Farticle.png?table=block&amp;id=d193afb0-32b1-4167-8242-3f2566e4c87e"></span>
+      
+      <a href="model-name-gender.html">
+        Modeling the perceived gender of names
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">I build and test an ML model to predict the perceived gender of a name in a given country.</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Mon, Aug 16, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--yellow">
+          <a href="tag/machine-learning.html">machine-learning</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
+          <a href="tag/tech.html">tech</a>
+        </span>
+      
+    </div>
+  </article>
+
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F70ece49c-7cbc-41fc-a55a-27c16467a3fc%2Farticle.png?table=block&amp;id=d681b1ea-2437-4387-a8fd-a2346bf78d38"></span>
+      
+      <a href="ml-photo-filter.html">
+        Enhancing high depth-of-field photos with image understanding
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">I use ML model predictions for photo depth and foreground saliency to highlight the subject(s) of interest against a soft background.</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Mon, Aug 26, 2019</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--yellow">
+          <a href="tag/machine-learning.html">machine-learning</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
+          <a href="tag/tech.html">tech</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--red">
+          <a href="tag/photography.html">photography</a>
+        </span>
+      
+    </div>
+  </article>
+
+</article>
   <footer class="Footer">
-        <div>&copy; unvarnished </div> <div>&centerdot;</div> seshadri.xyz &nbsp; <div>&centerdot;</div> &nbsp; 2021</div>
-    </footer>
-<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+  <div>&copy; unvarnished </div> <div>&centerdot;</div> seshadri.xyz <div>&centerdot;</div> 2021</div>
+</footer>
 </body>
 
 </html>
